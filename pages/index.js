@@ -6,6 +6,7 @@ import Typical from 'react-typical'
 import GithubIcon from "../components/icons/Github"
 import LinkedinIcon from "../components/icons/Linkedin"
 import XingIcon from "../components/icons/Xing"
+import DownloadIcon from "../components/icons/DownloadIcon"
 
 const TypingAnimation = React.memo(
   function TypingAnimation() {
@@ -128,16 +129,16 @@ export default function Home() {
 
                     <div className="">
                       <p className="text-sm">
-                        <span className="text-pink-300"> {">"} </span> const
-                        techWeb
-                        <span className="font-bold text-pink-300">2</span> =
-                        ["Reactjs", "Nextjs", "Graphql", "Nodejs"];{" "}
+                        <span className="text-pink-300"> {">"} </span>const
+                        front
+                        <span className="font-bold text-pink-300">end</span> =
+                        ["Reactjs", "Nextjs", "JavaScript", "Bootstrap", "Tailwind"];{" "}
                       </p>
                       <p className="text-sm">
-                        <span className="text-pink-300"> {">"} </span> const
-                        techWeb
-                        <span className="font-bold text-pink-300">3</span> =
-                        ["Solidity", "Web3.js", "Ethers.js"];{" "}
+                        <span className="text-pink-300"> {">"} </span>const
+                        back
+                        <span className="font-bold text-pink-300">end</span> =
+                        ["Node.js", "Express.js", "MongoDB"];{" "}
                       </p>
                     </div>
                   </div>
@@ -148,12 +149,13 @@ export default function Home() {
                     </Link>
 
                     <a
-                      href="https://www.youtube.com/channel/UCfGXEo2uCkVqcIqkIaFNGcA"
+                      href="/cv-sevde-örscelik.pdf"
+                      download="sevde-örscelik-cv"
                       target={"_blank"}
                       rel="noopener noreferrer"
-                      className="transition duration-300"
+                      className="transition duration-300 flex justify-center no-underline "
                     >
-                      Youtube
+                    <span className="underline">CV</span><span> </span><DownloadIcon className={"w-4 h-5 fill-blue-300 hover:fill-current"} />
                     </a>
                   </div>
                 </code>
