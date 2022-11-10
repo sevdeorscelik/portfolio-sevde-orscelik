@@ -107,7 +107,7 @@ export default function Home() {
           </div>
 
           {/* Code Area */}
-          <article className="mt-3 prose md:mt-4 md:prose-lg dark:prose-dark "> {/* prose otomatik oalrak taglari stillendirir.  */}
+          <article className="mt-3 max-w-4xl prose md:mt-4 md:prose-lg dark:prose-dark "> {/* prose otomatik oalrak taglari stillendirir.  */}
             <div>
               <pre>
                 <code className="language-js">
@@ -140,10 +140,15 @@ export default function Home() {
                         <span className="font-bold text-pink-300">end</span> =
                         ["Node.js", "Express.js", "MongoDB"];{" "}
                       </p>
+                      <p className="text-sm">
+                        <span className="text-pink-300"> {">"} </span>const
+                        zusätz<span className="font-bold text-pink-300">liche</span> =
+                        ["Git/Github", "Linux", "Wordpress", "Rest Api", "Figma"];{" "}
+                      </p>
                     </div>
                   </div>
 
-                  <div className="flex items-center space-x-8">
+                  <div className="flex items-center justify-center space-x-8">
                     <Link href="/projects" legacyBehavior>
                       <a className="transition duration-300">Projects</a>
                     </Link>
