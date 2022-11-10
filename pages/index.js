@@ -15,20 +15,34 @@ const TypingAnimation = React.memo(
         loop={Infinity}
         wrapper="p"
         steps={[
-          "Html - Css - Sass",
+          "Frontend Developer",
           2000,
-          "Bootstrap - Tailwind - Semantic UI",
-          2000,
-          "Responsive Design - Clean Code",
-          2000,
-          "Git / Github - Linux",
-          2000,
-          "Figma - Wordpress",
-          2000,
-          "JavaScript - React - Next.js",
-          2000,
-          "Node.js - Express.js - MongoDB",
-          2000
+          "Html",
+          1000,
+          "Css - Sass",
+          1000,
+          "Bootstrap ",
+          1000,
+          "Tailwindcss",
+          1000,
+          "Semantic UI",
+          1000,
+          "JavaScript",
+          1000,
+          "React",
+          1000,
+          "Next.js",
+          1000,
+          "Figma",
+          1000,
+          "Wordpress",
+          1000,
+          "Node.js",
+          1000,
+          "Express.js",
+          1000,
+          "MongoDB",
+          1000
         ]}
       />
     );
@@ -56,14 +70,22 @@ export default function Home() {
         drag
         dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
       />
+       <motion.img
+          src="/images/ball-3.png"
+          alt="ball-1"
+          className="w-20 hidden md:block h-auto absolute top-10 left-10 z-[1] "
+          whileHover={{ y: -10, rotate: 90, transition: { duration: 0.4 } }}
+          drag
+          dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
+        />
       <main className="h-full w-full">
         <section className="h-full max-w-5xl mx-auto pt-16 md:pt-8 ">
           <div className="flex flex-col items-center justify-center md:items-start">
             <h4 className="text-lg text-gray-800 dark:text-white">
               <span className="text-xl font-normal"> Hello, </span> I'm
             </h4>
-            <h1 className="mt-5 text-xl font-extrabold tracking-normal text-gray-800 uppercase md:text-4xl md:mt-3 dark:text-white">
-              Sevde ÖRSCELIK
+            <h1 className="mt-5 text-xl font-extrabold tracking-normal text-gray-800 md:text-4xl md:mt-3 dark:text-white">
+            SEVDE ÖRSCELIK
             </h1>
 
             <div className="mt-5 text-2xl font-normal text-transparent bg-gradient-to-r from-pink-500 via-indigo-400 to-purple-700 bg-clip-text md:mt-3">
@@ -114,8 +136,7 @@ export default function Home() {
                   </div>
                   <p>
                     <span className="text-gray-500">//</span>{" "}
-                    <span className="text-purple-300">Todo:</span> You can drag
-                    these balloons I'm really in love with them 🎈🎈
+                    <span className="text-purple-300">Todo:</span> You can drag these my magic balloons 🎈🎈
                   </p>
 
                   <div className="flex items-center space-x-4">
