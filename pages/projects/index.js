@@ -14,7 +14,7 @@ export default function ProjectPage({ projects }) {
                          <a className="flex items-center space-x-4 font-semibold pb-6 text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-200">
                               <ArrowLeftIcon className="w-8 h-8 fill-current " />
                               <span >
-                                   Zurück zur Hauptseite 
+                                   Back to Home
                               </span>
                          </a>
                     </Link>
