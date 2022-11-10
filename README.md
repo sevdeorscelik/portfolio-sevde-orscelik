@@ -1,6 +1,6 @@
 ### Demo: [link](https://portfolio-sevde-orscelik-hxkpggwaq-sevdeorscelik.vercel.app/)
 
-![reference image](/public/images/portfolio-ss.png)
+<img src="public/images/portfolio-ss.png" width="700" />
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
