@@ -12,12 +12,10 @@ const TypingAnimation = React.memo(
   function TypingAnimation() {
     return (
       <Typical
-        loop={3}
+        loop={Infinity}
         wrapper="p"
         steps={[
-          "Html",
-          2000,
-          "Css - Sass",
+          "Html - Css - Sass",
           2000,
           "Bootstrap - Tailwind - Semantic UI",
           2000,

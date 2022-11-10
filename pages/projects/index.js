@@ -5,7 +5,7 @@ import {getAllProjects} from '../../functions/getAllProjects'
 import ProjectCard from '../../components/ProjectCard'
 
 export default function ProjectPage({ projects }) {
-     console.log(projects);
+     
      return (
           <Layout title={"Portfolio / Projects"} description={"My Projects"} >
 
@@ -22,8 +22,8 @@ export default function ProjectPage({ projects }) {
                     {/* projects */}
                     <div className="grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-2">
 
-                         {projects.map(project => (
-                              <ProjectCard key={project.id} project={projects} />
+                         {projects.map((project )=> (
+                              <ProjectCard key={project.id} project={project} />
                          ))}
 
                     </div>
