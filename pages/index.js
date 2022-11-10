@@ -60,7 +60,7 @@ export default function Home() {
         <section className="h-full max-w-5xl mx-auto pt-16 md:pt-8 ">
           <div className="flex flex-col items-center justify-center md:items-start">
             <h4 className="text-lg text-gray-800 dark:text-white">
-              <span className="text-xl font-normal"> Hello, </span> I'm
+              <span className="text-xl font-normal"> Hallo, </span> Ich bin
             </h4>
             <h1 className="mt-5 text-xl font-extrabold tracking-normal text-gray-800 uppercase md:text-4xl md:mt-3 dark:text-white">
               Sevde ÖRSCELIK
@@ -114,8 +114,7 @@ export default function Home() {
                   </div>
                   <p>
                     <span className="text-gray-500">//</span>{" "}
-                    <span className="text-purple-300">Todo:</span> You can drag
-                    these balloons I'm really in love with them 🎈🎈
+                    <span className="text-purple-300">Todo:</span> Du kannst diese Ballons ziehen, ich bin wirklich in sie verliebt 🎈🎈
                   </p>
 
                   <div className="flex items-center space-x-4">
@@ -148,7 +147,7 @@ export default function Home() {
 
                   <div className="flex items-center justify-center space-x-8">
                     <Link href="/projects" legacyBehavior>
-                      <a className="transition duration-300">Projects</a>
+                      <a className="transition duration-300">Meine Projekte</a>
                     </Link>
 
                     <a
@@ -158,7 +157,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="transition duration-300 flex justify-center no-underline "
                     >
-                    <span className="underline">CV</span><span> </span><DownloadIcon className={"w-4 h-5 fill-blue-300 hover:fill-current"} />
+                    <span className="underline">Lebenslauf</span><span> </span><DownloadIcon className={"w-4 h-5 fill-blue-300 hover:fill-current"} />
                     </a>
                   </div>
                 </code>
