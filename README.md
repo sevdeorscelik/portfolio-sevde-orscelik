@@ -1,4 +1,4 @@
-### Demo: [link](https://portfolio-sevde-orscelik-hxkpggwaq-sevdeorscelik.vercel.app/)
+### Demo: [link](https://portfolio-sevde-orscelik.vercel.app/)
 
 <img src="public/images/portfolio-ss.png" width="700" />
 
