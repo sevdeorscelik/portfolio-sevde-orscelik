@@ -173,7 +173,7 @@ export default function Home() {
                     </Link>
 
                     <a
-                      href="/cv-sevde-örscelik.pdf"
+                      href="/sevde-örscelik-cv.pdf"
                       download="sevde-örscelik-cv"
                       target={"_blank"}
                       rel="noopener noreferrer"
