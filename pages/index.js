@@ -155,7 +155,7 @@ export default function Home() {
                         <span className="text-pink-300"> {">"} </span>const
                         front
                         <span className="font-bold text-pink-300">end</span> =
-                        ["Reactjs", "Nextjs", "JavaScript", "Bootstrap", "Tailwind", "PHP"];{" "}
+                        ["Reactjs", "Nextjs", "JavaScript", "Bootstrap", "Tailwind", "PHP", "Twig"];{" "}
                       </p>
                       <p className="text-sm">
                         <span className="text-pink-300"> {">"} </span>const
@@ -166,7 +166,7 @@ export default function Home() {
                       <p className="text-sm">
                         <span className="text-pink-300"> {">"} </span>const
                         zusätz<span className="font-bold text-pink-300">liche</span> =
-                        ["Shopware", "Git/Github", "Linux", "Wordpress", "Rest Api", "Figma"];{" "}
+                        ["Git/Github", "Linux", "Rest Api", "Shopware", "Adobe XD", "Figma"];{" "}
                       </p>
                     </div>
                   </div>
