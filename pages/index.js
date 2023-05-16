@@ -177,8 +177,8 @@ export default function Home() {
                     </Link>
 
                     <a
-                      href="/sevde-örscelik-cv.pdf"
-                      download="sevde-örscelik-cv"
+                      href="/sevde-örscelik.pdf"
+                      download="sevde_örscelik_cv"
                       target={"_blank"}
                       rel="noopener noreferrer"
                       className="transition duration-300 flex justify-center no-underline "
